@@ -7,7 +7,7 @@ import matplotlib
 
 matplotlib.use('tkAgg')
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] =
 
 llm = OpenAI()
 pandas_ai = PandasAI(llm)
